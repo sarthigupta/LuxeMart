@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contstyle.css">
+    <style>
+        .label{
+        display: inline-block;
+        width: 140px;
+        text-align: right;
+        padding: 8px;
+    }
+    fieldset{
+        width: 350px;
+        height: 50vh;
+    }
+    #input{
+        width: 170px;
+    }
+    .login{
+        align-items: center;
+        
+    }
+    .signin{
+        width: 100%;
+        margin-top: 8px;
+        background-color: #febd68;
+        border: none;
+        border-radius: 4px;
+        height: 30px;
+    }
+    .signin:hover{
+        background-color: #e68c16;
+    }
+    .loginform{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 8px;
+    }
+    .loginform p{
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    fieldset{
+        margin: auto;
+        margin-top: 150px;
+    }
+    
+    </style>
+</head>
+<body>
+    <fieldset>
+        <form action="" class="loginform">
+            <p>SignIn</p>
+            <div class="login">
+                <label class="label" for="email">Email or Username</label><input type="email" name="email" id="input">
+                <br>
+                <label class="label" for="email">Password</label><input type="password" name="password" id="input"><br>
+                <center><button class="signin">SignIn</button></center>
+                <p style="font-size: 20px;text-align: center;" class="new">New to LuxeMart</p>
+                <center><button class="signin">Create account</button></center>
+                
+        
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
